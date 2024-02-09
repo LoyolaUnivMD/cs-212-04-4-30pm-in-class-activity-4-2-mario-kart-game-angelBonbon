@@ -1,1 +1,21 @@
-THINK before you code...
+CLASS 1: MarioKartPlayer
+1. Create private data fields (variables): Str playerName, Str character, int speed
+2. Create constructor with parameters Str playerName, Str character, int speed
+    a. set variables in constructor to entered arguments (use .this)
+3. *Just for fun* Create a default constructor with not parameters
+    a. set playerName to "unknown"; character to "unknown"; speed to 50
+4. Create a boostSpeed method
+    a. add 10 to speed
+    b. output that the characters speed has increased with the new speed
+5. Create a displayInfo method
+    a. Output playerName, character, and speed to the user
+
+CLASS 2: MArioKartGame
+1. Instantiate new MarioKart object called gigi with arguments "Gigi", "Luigi", and 80
+2. Instantiate new MarioKart object called bonita with arguments "Bonita", "Mario", and 70
+3. Call displayInfo method on the gigi object
+4. Call displayInfo method on the bonita object
+3. Call boostSpeed method on the gigi object
+4. Call boostSpeed method on the bonita object
+7. Call displayInfo method on the gigi object
+8. Call displayInfo method on the bonita object
